@@ -10,6 +10,7 @@ namespace Alura.Estacionamento.Modelos
 {
     public class Patio
     {
+
         public Patio()
         {
             Faturado = 0;
@@ -18,7 +19,7 @@ namespace Alura.Estacionamento.Modelos
         private List<Veiculo> veiculos;
         private double faturado;     
         public double Faturado { get => faturado; set => faturado = value; }
-        public List<Veiculo> Veiculos { get => veiculos; set => veiculos = value; }
+        public List<Veiculo> Veiculos { get => veiculos; set => veiculos = value; }     
         public double TotalFaturado()
         {
             return this.Faturado;
@@ -32,7 +33,7 @@ namespace Alura.Estacionamento.Modelos
 
         public void RegistrarEntradaVeiculo(Veiculo veiculo)
         {
-            veiculo.HoraEntrada = DateTime.Now;     
+            veiculo.HoraEntrada = DateTime.Now;           
             this.Veiculos.Add(veiculo);            
         }
 
@@ -82,19 +83,17 @@ namespace Alura.Estacionamento.Modelos
             return informacao;
         }
 
-        public Veiculo AlteraDados(Veiculo veiculoAlterado)
+        public Veiculo AlteraDadosVeiculo(Veiculo veiculoAlterado)
         {
             // Como estamos trabalhando com array de objetos,
             // Podemos utilizar os recursos do `Linq to Objetcs` do .NET
             var veiculoTemp =  (from veiculo in this.Veiculos
                            where veiculo.Placa == veiculoAlterado.Placa
                            select veiculo).SingleOrDefault();
-            veiculoTemp.AlteraDadosVeiculo(veiculoAlterado);
+            veiculoTemp.AlteraDados(veiculoAlterado);
             return veiculoTemp;
 
          }
-
-        
         public Veiculo PesquisaVeiculo(string placa)
         {
             // Como estamos trabalhando com array de objetos,
@@ -104,6 +103,7 @@ namespace Alura.Estacionamento.Modelos
                              select veiculo).SingleOrDefault();
             return encontrado;
         }
+
       
     }
 }

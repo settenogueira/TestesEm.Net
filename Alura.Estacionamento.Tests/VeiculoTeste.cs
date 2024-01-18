@@ -8,13 +8,23 @@ namespace Alura.Estacionamento.Tests
 {
     public class VeiculoTeste
     {
+        public ITestOutputHelper Output { get; }
+        private Veiculo veiculo;
+    
+        public VeiculoTeste(ITestOutputHelper output)
+        {
+            Output = output;
+            Output.WriteLine("Execução do  construtor.");
+            veiculo = new Veiculo();
+            veiculo.Tipo = TipoVeiculo.Automovel;
+        }
 
-        [Fact(DisplayName = "Teste n°1")]
-        [Trait("Funcionalidade", "Acelerar")]
-        public void TestaVeiculoAcelerar()
+        [Fact/*(DisplayName = "Teste n°1")*/]
+        //[Trait("Funcionalidade", "Acelerar")]
+        public void TestaVeiculoAcelerarComAceleracao10()
         {
             //Arrange
-            var veiculo = new Veiculo();
+            //var veiculo = new Veiculo();
 
             //Act
             veiculo.Acelerar(10);
@@ -24,12 +34,12 @@ namespace Alura.Estacionamento.Tests
 
         }
 
-        [Fact(DisplayName = "Teste n°2")]
-        [Trait("Funcionalidade", "Frear")]
-        public void TestaVeiculoFrear()
+        [Fact/*(DisplayName = "Teste n°2")*/]
+        //[Trait("Funcionalidade", "Frear")]
+        public void TestaVeiculoFrearComFreio10()
         {
             //Arrange
-            var veiculo = new Veiculo();
+            //var veiculo = new Veiculo();
 
             //Act
             veiculo.Frear(10);
@@ -37,20 +47,21 @@ namespace Alura.Estacionamento.Tests
             Assert.Equal(-150, veiculo.VelocidadeAtual);
         }
 
-        [Fact(DisplayName = "Teste n°3", Skip = "Teste ainda não implementado")]
-        public void ValidaNomeProprietario()
-        {
-            // Exemplo de utilização do Skip
-        }
+        //[Fact/*(DisplayName = "Teste n°3",*/( Skip = "Teste ainda não implementado")]
+        //public void ValidaNomeProprietario()
+        //{
+        //    // Exemplo de utilização do Skip
+        //}
 
         [Fact]
-        public void AlterarDadosVeiculo()
+        public void AlteraDadosVeiculoDeUmDeterminadoVeiculoComBaseNaPlaca()
         {
             //Arrange
 
-            Patio estacionamento = new Patio();           
+            Patio estacionamento = new Patio();        
             var veiculo = new Veiculo();
             veiculo.Proprietario = "José Silva";
+            veiculo.Tipo = TipoVeiculo.Automovel;
             veiculo.Placa = "ZXC-8524";
             veiculo.Cor = "Verde";
             veiculo.Modelo = "Opala";     
@@ -58,12 +69,14 @@ namespace Alura.Estacionamento.Tests
 
             var veiculoAlterado = new Veiculo();
             veiculoAlterado.Proprietario = "José Silva";
+            veiculoAlterado.Tipo = TipoVeiculo.Automovel;
             veiculoAlterado.Placa = "ZXC-8524";
             veiculoAlterado.Cor = "Preto"; //Alterado
             veiculoAlterado.Modelo = "Opala";
 
+
             //Act
-            var alterado = estacionamento.AlteraDados(veiculoAlterado);
+            var alterado = estacionamento.AlteraDadosVeiculo(veiculoAlterado);
 
             //Assert
             Assert.Equal(alterado.Cor,veiculoAlterado.Cor);
@@ -71,7 +84,7 @@ namespace Alura.Estacionamento.Tests
         }
 
         [Fact]
-        public void DadosVeiculo()
+        public void GerarFichadeInformaçãodoProprioVeiculo()
         {
             //Arrange
             var veiculo = new Veiculo();
