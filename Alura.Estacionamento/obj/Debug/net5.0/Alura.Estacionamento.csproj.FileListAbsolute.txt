@@ -1,0 +1,47 @@
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.exe
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.deps.json
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.json
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.dev.json
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfoInputs.cache
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfo.cs
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.csproj.CoreCompileInputs.cache
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.genruntimeconfig.cache
+C:\Users\André Bessa da Silva\source\repos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.exe
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.deps.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.dev.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.exe
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.deps.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.runtimeconfig.dev.json
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\bin\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\ref\Alura.Estacionamento.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos\Aula04\Alura.Estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.genruntimeconfig.cache
