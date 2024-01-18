@@ -2,14 +2,22 @@
 using Alura.Estacionamento.Modelos;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
+using Xunit.Sdk;
 
 namespace Alura.Estacionamento.Tests
 {
     public class PatioTeste:IDisposable
     {
+
         private Veiculo veiculo = new Veiculo();
+        private Operador operador;
+        private Patio estacionamento;
+
         public ITestOutputHelper Output { get; }
         public PatioTeste(ITestOutputHelper output)
         {
@@ -21,21 +29,21 @@ namespace Alura.Estacionamento.Tests
             veiculo.Cor = "Preto";
             veiculo.Modelo = "Fusca";
 
+            operador = new Operador();
+
+            estacionamento = new Patio();
+            estacionamento.OperadorPatio = operador;
+
         }
 
-        
         [Fact]
         public void ValidaFaturamentoDoEstacionamentoComUmVeiculo()
         {
-            //Arranje
-            Patio estacionamento = new Patio();
+            //Arrange
+            //Patio estacionamento = new Patio();
             //var veiculo = new Veiculo();
-            veiculo.Proprietario = "André Silva";
-            veiculo.Tipo = TipoVeiculo.Automovel;
-            veiculo.Placa = "ABC-0101";
-            veiculo.Modelo = "Fusca";    
-            veiculo.Acelerar(10);
-            veiculo.Frear(5);
+            //veiculo.Proprietario = "André Silva";
+            //veiculo.Placa = "ASD-9999";
             estacionamento.RegistrarEntradaVeiculo(veiculo);
             estacionamento.RegistrarSaidaVeiculo(veiculo.Placa);
 
@@ -47,66 +55,56 @@ namespace Alura.Estacionamento.Tests
         }
 
         [Theory]
-        [InlineData("André Silva", "ASD-1498", "preto", "Gol")]
-        [InlineData("Jose Silva", "POL-9242", "Cinza", "Fusca")]
-        [InlineData("Maria Silva", "GDR-6524", "Azul", "Opala")]   
-        public void ValidaFaturamentoComVariosVeiculosNoEstacionamento(string proprietario,
-                                                        string placa,
-                                                        string cor,
-                                                        string modelo)
-        {
-            //Arranje
-            Patio estacionamento = new Patio();
-
-            //var veiculo = new Veiculo();
-            veiculo.Proprietario = proprietario;
-            veiculo.Tipo = TipoVeiculo.Automovel;
-            veiculo.Placa = placa;
-            veiculo.Cor = cor;
-            veiculo.Modelo = modelo;
-            veiculo.Acelerar(10);
-            veiculo.Frear(5);
-            estacionamento.RegistrarEntradaVeiculo(veiculo);
-            estacionamento.RegistrarSaidaVeiculo(veiculo.Placa);
-
-            //Act
-            double faturamento = estacionamento.TotalFaturado();
-
-            //Assert
-            Assert.Equal(2, faturamento);
-        }
-
-        [Theory]
-        [InlineData("André Silva", "ASD-1234", "Verde", "Fusca")]
-        public void LocalizaUmVeiculoNoEstacionamentoComBaseNaPlaca(string proprietario,
-                                           string placa,
-                                           string cor,
-                                           string modelo)
+        [InlineData("ASD-9631","André Silva","Fusca","Preto")]
+        [InlineData("WER-8754", "José Silva", "Uno", "Amarelo")]
+        [InlineData("TRD-7418", "Maria Silva", "Gol", "Vermelho")]
+        public void ValidaFaturamentoParaVariosVeiculosNoEstacionamento(string placa,string proprietario,string modelo, string cor)
         {
             //Arrange
-            Patio estacionamento = new Patio();
-            //var veiculo = new Veiculo();           
+            //Patio estacionamento = new Patio();
+            //var veiculo = new Veiculo();
+            veiculo.Placa = placa;
+            veiculo.Proprietario = proprietario;
+            veiculo.Modelo = modelo;
+            veiculo.Cor = cor;
+            estacionamento.RegistrarEntradaVeiculo(veiculo);
+            estacionamento.RegistrarSaidaVeiculo(veiculo.Placa);
+            
+            //Act
+            double faturamento = estacionamento.TotalFaturado();
+
+            //Assert
+            Assert.Equal(2, faturamento);
+        }
+
+        [Theory]
+        [InlineData("André Silva","ASD-1234","Verde","Fusca")]
+        public void LocalizaUmVeiculoNoEstacionamentoComBaseNaPlaca(string proprietario,
+                                    string placa,
+                                    string cor,
+                                    string modelo)
+        {
+            //Arrange
+           // Patio estacionamento = new Patio();
+            //var veiculo = new Veiculo();
             veiculo.Proprietario = proprietario;
             veiculo.Placa = placa;
-            veiculo.Tipo = TipoVeiculo.Automovel;
             veiculo.Cor = cor;
             veiculo.Modelo = modelo;
-            veiculo.Acelerar(10);
-            veiculo.Frear(5);
+
             estacionamento.RegistrarEntradaVeiculo(veiculo);
 
             //Act
-            var consultado = estacionamento.PesquisaVeiculo(placa);
+            var consultado = estacionamento.PesquisaVeiculo(veiculo.IdTicket);
 
             //Assert
-            Assert.Equal(placa, consultado.Placa);
+            Assert.Equal(veiculo.Placa, consultado.Placa);
+
         }
 
         public void Dispose()
         {
             Output.WriteLine("Execução do Cleanup");
         }
-
-
     }
 }

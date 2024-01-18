@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula05\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula05\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\Alura.Estacionamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula05\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
         "projectName": "Alura.Estacionamento",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula05\\Alura.Estacionamento\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\Alura.Estacionamento.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Aula05\\Alura.Estacionamento\\Alura.Estacionamento\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\Alura.Estacionamento - Final\\Alura.Estacionamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

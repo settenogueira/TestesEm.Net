@@ -7,7 +7,6 @@ namespace Alura.Estacionamento
 {
     class Program
     {
-
         // Cria uma lista de objetos do tipo veículos, para armazenar
         // os veículos (automovéis e motos) que estão no estacionamento;
         static Patio estacionamento = new Patio();         
@@ -25,8 +24,7 @@ namespace Alura.Estacionamento
                 Console.Clear();// limpa a tela;
             } while (opcao != "5");
         }
-
-        
+                
         // Métodos de negócios.
         static void MostrarVeiculosEstacionados()
         {
@@ -34,17 +32,12 @@ namespace Alura.Estacionamento
             Console.WriteLine(" Veículos Estacionados");
             foreach (Veiculo v in estacionamento.Veiculos)
             {
-                // placa, propr, hora
+                // placa, proprietario, hora
                 Console.WriteLine("Placa :{0}", v.Placa);
                 Console.WriteLine("Proprietário :{0}", v.Proprietario);
                 Console.WriteLine("Hora de entrada :{0:HH:mm:ss}", v.HoraEntrada);
                 Console.WriteLine("********************************************");
-                //Console.WriteLine("************Ficha Detalhada Veículo*********");
-                //Console.WriteLine(v.ToString());
-                //Console.WriteLine("********Ticket Estacionamento Alura*********");
-                //Console.WriteLine(v.Ticket);
-                //Console.WriteLine("********************************************");
-        }
+           }
             if (estacionamento.Veiculos.Count == 0)
             {
                 Console.WriteLine("Não há veículos estacionados no momento...");
